@@ -17,7 +17,7 @@ Desenvolver um sistema sustentável para armazenar e reutilizar água natural, v
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Desenvolvido por:<a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a>, <a href="https://https://www.linkedin.com/in/gustavo-leonardi-584b00231/">Gustavo Leonardi</a>, <a href="https://www.linkedin.com/in/guilherme-moreno-52847a30b/">Guilherme Silva Moreno</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-brosselin-37b22a2b9/">João Pedro Brosselin</a>.
+  Desenvolvido por:<a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a>, </a>.
 </p>
 
 <br><br>
