@@ -13,7 +13,7 @@
 ## Professores Orientadores: <a href="https:https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rossetti de Queiroz </a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>.
 
 ## Descrição
-Desenvolvimento e implementação de um sistema integrado de captação e purificação de água da chuva promovendo o acesso sustentável a água potável. 
+Desenvolver um sistema sustentável para armazenar e reutilizar água natural, visando atender às necessidades de hidratação do gado, especialmente em regiões onde a água é um recurso escasso. Este sistema buscará capturar, armazenar e purificar a água da chuva ou de fontes naturais, garantindo uma reserva constante e segura de água para os animais.
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
