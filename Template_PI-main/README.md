@@ -51,10 +51,37 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 💻  Instalação Arduino IDE
+Baixe o Arduino IDE:https://www.arduino.cc/en/software
+*Ao abrir o Arduino IDE pela primeira vez, você pode precisar configurar a porta serial correta e a placa Arduino que está usando;
+*Conecte seu Arduino ao computador via USB;
+*No Arduino IDE, vá para Ferramentas > Placa e selecione o modelo da sua placa;
+*Vá para Ferramentas > Porta e selecione a porta serial à qual seu Arduino está conectado;
+*Testar a Instalação;
 
+*Abra um exemplo básico, como Arquivo > Exemplos > 01.Basics > Blink;
+*Clique no botão Verificar para compilar o código;
+*Clique no botão Carregar para enviar o código para a placa Arduino;
+*Se tudo estiver configurado corretamente, o LED na placa Arduino deve começar a piscar;
 
 ## 💻  Instalação Blynk 
+*Baixar o Aplicativo Blynk: https://blynk.io/
+*Abra o aplicativo Blynk, registre-se ou faça login.
+*Criar um Novo Projeto:
 
+*Toque em "Novo Projeto", insira um nome, selecione o tipo de hardware (como ESP32) e o método de conexão (como Wi-Fi).
+*Você receberá um Token de Autenticação por e-mail.
+*Configurar o Código do Dispositivo:
+
+*No Arduino IDE, instale a biblioteca Blynk.
+*Abra um exemplo de código Blynk para ESP32, insira o Token de Autenticação e as credenciais de Wi-Fi.
+*Carregue o código no seu dispositivo (ESP32).
+*Configurar a Interface no Aplicativo Blynk:
+
+*Adicione e configure widgets no aplicativo, vinculando-os aos pinos do seu dispositivo.
+*Testar a Conexão:
+
+*Certifique-se de que o dispositivo está conectado e online.
+*No aplicativo Blynk, toque em "Play" para iniciar o projeto e interagir com os widgets.
 
 ## 🗃 Histórico de lançamentos
 
