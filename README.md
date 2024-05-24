@@ -94,7 +94,6 @@ Há também 4 pastas que seguem da seguinte forma:
 ## 💻 Instalação de Bibliotecas
 <br>• Abra o navegador e entre no <a href="https://youtu.be/H9UWv0zsmlQ?si=zMN-5LA7HJpKQSad">YouTube</a>
 <br>• Baixe o arquivo zip.</br>
-]
 <br>•	Abra o Arduino IDE.</br>
 <br>•	Vá em Sketch > Include Library > Add .ZIP Library....</br>
 <br>•	Navegue até o local onde você baixou o arquivo .zip e selecione-o.</br>
