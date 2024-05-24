@@ -68,6 +68,12 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Materiais utilizados
+![ods](https://github.com/2024-1-NADS1-A/Projeto12/blob/main/Template_PI-main/imagens/Design%20sem%20nome%20(1).png)
+<p align="center">
+<img src="![materiais](https://github.com/2024-1-NADS1-A/Projeto12/blob/main/Template_PI-main/imagens/Design%20sem%20nome%20(1).png)" border="0">
+  <a> Feito por<a> <a href="https://www.linkedin.com/in/lucas-gomes-de-souza-526b1730a/">Lucas Gomes de Souza</a> e <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a></a>
+
+</p>
 
 <br><strong>⛏️ Hardware</strong></br>
 <br>•Esp8266</br>
@@ -84,6 +90,32 @@ Há também 4 pastas que seguem da seguinte forma:
 <br>•Instale o <a href="https://www.arduino.cc/en/software">Arduino IDE</a> a partir do site oficial.</br>
 <br>Faça o downloand das bibliotecas necessárias;</br>
 <br> Faça a conexão do esp8266 ao Blynk</br>
+
+## 💻 Instalação de Bibliotecas
+<br>• Abra o navegador e entre no <a href="https://youtu.be/H9UWv0zsmlQ?si=zMN-5LA7HJpKQSad">YouTube</a>
+<br>• Baixe o arquivo zip.</br>
+]
+<br>•	Abra o Arduino IDE.</br>
+<br>•	Vá em Sketch > Include Library > Add .ZIP Library....</br>
+<br>•	Navegue até o local onde você baixou o arquivo .zip e selecione-o.</br>
+<br>•	A biblioteca será adicionada e estará disponível para uso em seus projetos.</br>
+
+<br><strong>📚Wire.h</strong></br>
+ <br>•	Vá em Sketch > Include Library > Manage Libraries....</br>
+ <br>•	Na caixa de busca, digite "Wire.h".</br>
+ <br>•	Selecione a biblioteca e clique em "Install".</br>
+
+<br><strong>📚LiquidCrystal</strong></br>
+ <br>•	Vá em Sketch > Include Library > Manage Libraries....</br>
+ <br>•	Na caixa de busca, digite "LiquidCrystal" por Marco Schwartz.</br>
+ <br>•	Selecione a biblioteca DallasTemperature de Miles Burton e clique em "Install".</br>
+
+ <br><strong>📡WiFi</strong></br>
+ <br>•	Vá em Sketch > Include Library > Manage Libraries....</br>
+ <br>•	Na caixa de busca, digite "WiFi".</br>
+ <br>•	Selecione a biblioteca WiFi para ESP8266 e clique em "Install".</br>
+ 
+
 
 ## 🛠 Instalação Blynk
 Inicie um novo projeto e obtenha as credenciais necessárias com o token de autenticação;
