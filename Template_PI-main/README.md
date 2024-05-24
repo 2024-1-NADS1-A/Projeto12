@@ -8,7 +8,7 @@
 
 ## Water filter
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a>, <a href="https://https://www.linkedin.com/in/gustavo-leonardi-584b00231/">Gustavo Leonardi</a>, <a href="https://www.linkedin.com/in/guilherme-moreno-52847a30b/">Guilherme Silva Moreno</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-brosselin-37b22a2b9/">João Pedro Brosselin</a>.
 
 ## Professores Orientadores: <a href="https:https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rossetti de Queiroz </a>, <a href="https:"https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>.
 
