@@ -17,16 +17,14 @@ Desenvolver um sistema sustentável para armazenar e reutilizar água natural, v
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Desenvolvido por:<a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a>, <a href="https://https://www.linkedin.com/in/gustavo-leonardi-584b00231/">Gustavo Leonardi</a>, <a href="https://www.linkedin.com/in/guilherme-moreno-52847a30b/">Guilherme Silva Moreno</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-brosselin-37b22a2b9/">João Pedro Brosselin</a>.
 </p>
 
+<br><br>
+O projeto de Sistema de Armazenamento e Reutilização de Água Natural para Gado tem como objetivo fornecer uma fonte constante, limpa e sustentável de água para gado. Ele capta água da chuva ou de outras fontes naturais, armazena-a em grandes reservatórios, purifica-a para remover impurezas e distribui-a automaticamente aos bebedouros dos animais. Sensores de nível de água e controladores automáticos monitoram e gerenciam o sistema, enquanto bombas de água garantem a eficiente distribuição. Opcionalmente, o sistema pode ser alimentado por energia solar, tornando-o mais sustentável. Este projeto não só conserva recursos hídricos como também melhora o bem-estar dos animais, reduz a dependência de fontes externas de água e minimiza a necessidade de intervenção manual.
+<br><br>
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+
 
 ## 🛠 Estrutura de pastas
 
