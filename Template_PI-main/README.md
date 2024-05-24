@@ -24,8 +24,6 @@ Desenvolver um sistema sustentável para armazenar e reutilizar água natural, v
 O projeto de Sistema de Armazenamento e Reutilização de Água Natural para Gado tem como objetivo fornecer uma fonte constante, limpa e sustentável de água para gado. Ele capta água da chuva ou de outras fontes naturais, armazena-a em grandes reservatórios, purifica-a para remover impurezas e distribui-a automaticamente aos bebedouros dos animais. Sensores de nível de água e controladores automáticos monitoram e gerenciam o sistema, enquanto bombas de água garantem a eficiente distribuição. Opcionalmente, o sistema pode ser alimentado por energia solar, tornando-o mais sustentável. Este projeto não só conserva recursos hídricos como também melhora o bem-estar dos animais, reduz a dependência de fontes externas de água e minimiza a necessidade de intervenção manual.
 <br><br>
 
-
-
 ## 🛠 Estrutura de pastas
 
 -Raiz<br>
@@ -33,14 +31,9 @@ O projeto de Sistema de Armazenamento e Reutilização de Água Natural para Gad
 |-->documentos<br>
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
@@ -57,61 +50,24 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Instalação
+## 💻  Instalação Arduino IDE
 
-<b>Android:</b>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+## 💻  Instalação Blynk 
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 🗃 Histórico de lançamentos
 
-A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.0.1 - 09/05/2024
+    *Simulação da teoria do projeto;
+ * 0.2.0 - 15/05/2024
+    * Criação do código e circuito;
+* 0.0.3 - 22/05/2024
+    * Erros concertados;
+* 0.0.4 - 10/01/2022
+    * Trabalho em andamento;
+* 0.0.5 - 24/05/2024
+    * Finalização do projeto;
 
 ## 📋 Licença/License
 
