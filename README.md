@@ -11,8 +11,20 @@
 ## Integrantes: <a href="https://www.linkedin.com/in/lucas-gomes-de-souza-526b1730a/">Lucas Gomes de Souza</a> e <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a></a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rossetti de Queiroz</a> e <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>.
+
+## 📝 Introdução
+![ods](https://github.com/2024-1-NADS1-A/Projeto9/blob/main/imagens/ODS.jpg)
+<p align="center">
+<img src="![ods](https://github.com/2024-1-NADS1-A/Projeto9/blob/main/imagens/ODS.jpg)" border="0">
+  <a> Feito por<a> <a href="https://gtagenda2030.org.br/ods/">Objetivos de Desenvolvimento Sustentável (ODS)</a>
+</p>
+<br>Este projeto se alinha diretamente com o Objetivo de Desenvolvimento Sustentável (ODS) 15 da ONU, que visa proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres. Ao garantir uma irrigação eficiente e evitar o desperdício de água, contribuímos para a sustentabilidade dos recursos naturais e a preservação dos habitats, promovendo a conservação da biodiversidade e a produtividade agrícola sustentável.</br>
+<br> O projeto visa implementar um sistema de monitoramento e controle de umidade do solo em estufas agrícolas para otimizar a irrigação, reduzir desperdícios de recursos e melhorar a produtividade das plantas. Os principais objetivos incluem a instalação de sensores de umidade em pontos estratégicos, automatização do sistema de irrigação com base em dados coletados, desenvolvimento de um aplicativo para monitoramento e controle remoto, e implementação de alertas e relatórios detalhados. </br>
+
+
+
 ## Descrição
-O projeto visa implementar um sistema de monitoramento e controle de umidade do solo em estufas agrícolas para otimizar a irrigação, reduzir desperdícios de recursos e melhorar a produtividade das plantas. Os principais objetivos incluem a instalação de sensores de umidade em pontos estratégicos, automatização do sistema de irrigação com base em dados coletados, desenvolvimento de um aplicativo para monitoramento e controle remoto, e implementação de alertas e relatórios detalhados.
+
 
 ![Imagem projeto](https://github.com/2024-1-NADS1-A/Projeto10/assets/163611404/dd5d485e-c5d3-483d-8d56-3b4ace23a275)
 <p align="center">
@@ -21,11 +33,11 @@ O projeto visa implementar um sistema de monitoramento e controle de umidade do 
 </p>
 
 <br><br>
-O projeto de Sistema de Detecção de Umidade utiliza o microcontrolador ESP32 e o aplicativo Blynk para monitorar remotamente os níveis de umidade do solo. O sistema é composto por um sensor de umidade do solo, que envia dados para o ESP32. Estes dados são transmitidos ao Blynk, onde o usuário pode visualizá-los através de uma interface personalizada.
+O projeto de Sistema de Detecção de Umidade utiliza o microcontrolador ESP32 e o aplicativo Blynk para monitorar remotamente os níveis de umidade do solo. O sistema é composto por um sensor de umidade do solo, que envia dados para o ESP8266. Estes dados são transmitidos ao Blynk, onde o usuário pode visualizá-los através de uma interface personalizada.
 
-Inicialmente, o projeto é criado no Blynk e as credenciais de autenticação são obtidas. No código do ESP32, a biblioteca Blynk é incluída e as credenciais são configuradas. Em seguida, o ESP32 é conectado ao servidor Blynk e os pinos virtuais são configurados para receber os dados do sensor.
+Inicialmente, o projeto é criado no Blynk e as credenciais de autenticação são obtidas. No código do ESP8266, a biblioteca Blynk é incluída e as credenciais são configuradas. Em seguida, o ESP8266 é conectado ao servidor Blynk e os pinos virtuais são configurados para receber os dados do sensor.
 
-Após a integração e a configuração online do ESP32, o sistema permite atualizações de firmware Over-The-Air (OTA) para facilitar a manutenção. A interface do usuário é construída no aplicativo Blynk, incluindo gráficos e indicadores de umidade, além de configurações de alertas e automações, como o acionamento de sistemas de irrigação quando a umidade estiver baixa.
+Após a integração e a configuração online do ESP8266, o sistema permite atualizações de firmware Over-The-Air (OTA) para facilitar a manutenção. A interface do usuário é construída no aplicativo Blynk, incluindo gráficos e indicadores de umidade, além de configurações de alertas e automações, como o acionamento de sistemas de irrigação quando a umidade estiver baixa.
 
 Com todas as etapas concluídas, o sistema oferece um monitoramento eficiente e em tempo real, melhorando a gestão da irrigação e a saúde das plantas.
 <br><br>
