@@ -44,8 +44,6 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
 
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
 <b>imagens</b>: Imagens do sistema
 
 <b>src</b>: Pasta que contém o código fonte.
@@ -103,7 +101,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://www.alomorfia.com.br/index.php/alomorfia/article/view/180 >
-2. <https://repositorio.iica.int/handle/11324/21094 >
-3. <https://revistascientificas.ifrj.edu.br/index.php/reci/article/view/1891 />
-4. <https://periodicos.ifgoiano.edu.br/ciclo/article/view/868 />
+1. https://www.alomorfia.com.br/index.php/alomorfia/article/view/180 
+2. https://repositorio.iica.int/handle/11324/21094 
+3. https://revistascientificas.ifrj.edu.br/index.php/reci/article/view/1891 
+4. https://periodicos.ifgoiano.edu.br/ciclo/article/view/868 
