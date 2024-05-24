@@ -4,13 +4,13 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Sistema de detecção de umidade.
+# Sistema de detecção de umidade utilizando o ESP8266 Baseado no Objetivo de Desenvolvimento Sustentável 15.
 
-## AgriSense
+## 🌱 AgriSense
 
-## Integrantes: <a href="https://www.linkedin.com/in/lucas-gomes-de-souza-526b1730a/">Lucas Gomes de Souza</a> e <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a></a>
+## 🫂 Integrantes: <a href="https://www.linkedin.com/in/lucas-gomes-de-souza-526b1730a/">Lucas Gomes de Souza</a> e <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a></a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rossetti de Queiroz</a> e <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>.
+## 👨‍🏫 Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rossetti de Queiroz</a> e <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>.
 
 ## 📝 Introdução
 ![ods](https://github.com/2024-1-NADS1-A/Projeto9/blob/main/imagens/ODS.jpg)
@@ -23,7 +23,7 @@
 
 
 
-## Descrição
+## 📖 Descrição
 
 
 ![Imagem projeto](https://github.com/2024-1-NADS1-A/Projeto10/assets/163611404/dd5d485e-c5d3-483d-8d56-3b4ace23a275)
@@ -69,6 +69,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Materiais utilizados
 
+<br><strong>⛏️ Hardware</strong></br>
 <br>•Esp8266</br>
 <br>•Jumpers macho/ femea</br>
 <br>•Sensor de umidade</br>
