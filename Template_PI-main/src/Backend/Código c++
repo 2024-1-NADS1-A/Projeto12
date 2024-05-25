@@ -1,49 +1,68 @@
+// Define que as mensagens de debug do Blynk serão enviadas para a Serial
 #define BLYNK_PRINT Serial
+
+// Define o ID do Template do Blynk
 #define BLYNK_TEMPLATE_ID "TMPL2v3nfdttx"
+
+// Define o nome do Template do Blynk
 #define BLYNK_TEMPLATE_NAME "umidade da terra"
 
+// Inclui a biblioteca ESP8266WiFi para conectar o ESP8266 à rede WiFi
 #include <ESP8266WiFi.h>
+
+// Inclui a biblioteca Blynk para permitir a comunicação com o aplicativo Blynk
 #include <BlynkSimpleEsp8266.h>
+
+// Inclui a biblioteca Wire para comunicação I2C
 #include <Wire.h>
 
 // Defina as credenciais do Blynk
-char auth[] = "ugTfy5scXoK4xAiqPawNzrpjs6JG6lJd";  
-char ssid[] = "Lucca";        
-char pass[] = "Murilo13";       
+char auth[] = "ugTfy5scXoK4xAiqPawNzrpjs6JG6lJd";  // Token de autenticação do Blynk
+char ssid[] = "Lucca";        // Nome da rede WiFi
+char pass[] = "Murilo13";     // Senha da rede WiFi
 
+// Cria um objeto timer para gerenciar a execução periódica de funções
 BlynkTimer timer;
 
-
 // Definição dos pinos
-const int D2 = 4;  // Definição do pino D2 (SDA)
-const int D1 = 5;  // Definição do pino D1 (SCL)
-const int D4 = 2;  // Definição do pino D4
+const int D2 = 4;  // Define o pino D2 como 4 (usado para SDA no I2C)
+const int D1 = 5;  // Define o pino D1 como 5 (usado para SCL no I2C)
+const int D4 = 2;  // Define o pino D4 como 2 (pino de controle digital)
 
+// Função que mede a umidade do solo
 void umidade() {
-  int valor = analogRead(A0);
-  valor = map(valor, 1023, 0, 0, 100);  
+  int valor = analogRead(A0); // Lê o valor do pino analógico A0
+  valor = map(valor, 1023, 0, 0, 100);  // Mapeia o valor lido para uma escala de 0 a 100%
 
+  // Envia o valor da umidade para o Blynk no Virtual Pin V0
   Blynk.virtualWrite(V0, valor);
 
+  // Imprime o valor da umidade no monitor serial
   Serial.print("Umidade: ");
   Serial.print(valor);
   Serial.println("%");
 }
 
+// Função de setup, executada uma vez quando o ESP8266 é inicializado
 void setup() {
-  Serial.begin(9600);
-  Wire.begin(D2, D1);  // Inicialização do Wire com os pinos SDA e SCL
+  Serial.begin(9600);  // Inicializa a comunicação serial com baud rate 9600
 
-  
+  // Inicializa a comunicação I2C com os pinos SDA e SCL
+  Wire.begin(D2, D1);
+
+  // Configura o pino D4 como saída
   pinMode(D4, OUTPUT);
-  digitalWrite(D4, HIGH);
+  digitalWrite(D4, HIGH);  // Define o pino D4 como HIGH (liga o pino)
 
-
+  // Conecta ao Blynk usando o token de autenticação e as credenciais WiFi
   Blynk.begin(auth, ssid, pass);
-  timer.setInterval(1000L, umidade);  
+
+  // Define um intervalo de 1000 milissegundos (1 segundo) para a função umidade
+  timer.setInterval(1000L, umidade);
 }
 
+// Função loop, executada repetidamente após o setup
 void loop() {
-  Blynk.run();
-  timer.run();
+  Blynk.run();  // Mantém a conexão com o servidor Blynk ativa
+  timer.run();  // Executa as funções associadas aos timers configurados
 }
