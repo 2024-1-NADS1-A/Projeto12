@@ -1,0 +1,49 @@
+#define BLYNK_PRINT Serial
+#define BLYNK_TEMPLATE_ID "TMPL2v3nfdttx"
+#define BLYNK_TEMPLATE_NAME "umidade da terra"
+
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+#include <Wire.h>
+
+// Defina as credenciais do Blynk
+char auth[] = "ugTfy5scXoK4xAiqPawNzrpjs6JG6lJd";  
+char ssid[] = "Lucca";        
+char pass[] = "Murilo13";       
+
+BlynkTimer timer;
+
+
+// Definição dos pinos
+const int D2 = 4;  // Definição do pino D2 (SDA)
+const int D1 = 5;  // Definição do pino D1 (SCL)
+const int D4 = 2;  // Definição do pino D4
+
+void umidade() {
+  int valor = analogRead(A0);
+  valor = map(valor, 1023, 0, 0, 100);  
+
+  Blynk.virtualWrite(V0, valor);
+
+  Serial.print("Umidade: ");
+  Serial.print(valor);
+  Serial.println("%");
+}
+
+void setup() {
+  Serial.begin(9600);
+  Wire.begin(D2, D1);  // Inicialização do Wire com os pinos SDA e SCL
+
+  
+  pinMode(D4, OUTPUT);
+  digitalWrite(D4, HIGH);
+
+
+  Blynk.begin(auth, ssid, pass);
+  timer.setInterval(1000L, umidade);  
+}
+
+void loop() {
+  Blynk.run();
+  timer.run();
+}
