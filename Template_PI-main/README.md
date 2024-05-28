@@ -4,24 +4,42 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-#  Armazenamento e reutilização de água natural para gado.
+# Sistema de detecção de umidade utilizando o ESP8266 Baseado no Objetivo de Desenvolvimento Sustentável 15.
 
-## Water filter
+## 🌱 AgriSense
 
-## Integrantes: <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a>, <a href="https://https://www.linkedin.com/in/gustavo-leonardi-584b00231/">Gustavo Leonardi</a>, <a href="https://www.linkedin.com/in/guilherme-moreno-52847a30b/">Guilherme Silva Moreno</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-brosselin-37b22a2b9/">João Pedro Brosselin</a>.
+## 🫂 Integrantes: <a href="https://www.linkedin.com/in/lucas-gomes-de-souza-526b1730a/">Lucas Gomes de Souza</a> e <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a></a>
 
-## Professores Orientadores: <a href="https:https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rossetti de Queiroz </a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>.
+## 👨‍🏫 Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rossetti de Queiroz</a> e <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>.
 
-## Descrição
-Desenvolver um sistema sustentável para armazenar e reutilizar água natural, visando atender às necessidades de hidratação do gado, especialmente em regiões onde a água é um recurso escasso. Este sistema buscará capturar, armazenar e purificar a água da chuva ou de fontes naturais, garantindo uma reserva constante e segura de água para os animais.
-
+## 📝 Introdução
+![ods](https://github.com/2024-1-NADS1-A/Projeto9/blob/main/imagens/ODS.jpg)
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Desenvolvido por:<a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a>, <a href="https://https://www.linkedin.com/in/gustavo-leonardi-584b00231/">Gustavo Leonardi</a>, <a href="https://www.linkedin.com/in/guilherme-moreno-52847a30b/">Guilherme Silva Moreno</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-brosselin-37b22a2b9/">João Pedro Brosselin</a>.
+<img src="![ods](https://github.com/2024-1-NADS1-A/Projeto9/blob/main/imagens/ODS.jpg)" border="0">
+  <a> Feito por<a> <a href="https://gtagenda2030.org.br/ods/">Objetivos de Desenvolvimento Sustentável (ODS)</a>
+</p>
+<br>Este projeto se alinha diretamente com o Objetivo de Desenvolvimento Sustentável (ODS) 15 da ONU, que visa proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres. Ao garantir uma irrigação eficiente e evitar o desperdício de água, contribuímos para a sustentabilidade dos recursos naturais e a preservação dos habitats, promovendo a conservação da biodiversidade e a produtividade agrícola sustentável.</br>
+<br> O projeto visa implementar um sistema de monitoramento e controle de umidade do solo em estufas agrícolas para otimizar a irrigação, reduzir desperdícios de recursos e melhorar a produtividade das plantas. Os principais objetivos incluem a instalação de sensores de umidade em pontos estratégicos, automatização do sistema de irrigação com base em dados coletados, desenvolvimento de um aplicativo para monitoramento e controle remoto, e implementação de alertas e relatórios detalhados. </br>
+
+
+
+## 📖 Descrição
+
+
+![Imagem projeto](https://github.com/2024-1-NADS1-A/Projeto10/assets/163611404/dd5d485e-c5d3-483d-8d56-3b4ace23a275)
+<p align="center">
+<img src= alt="NOME DO JOGO" border="0">
+  Projeto desenvolvido por: <a href="https://www.linkedin.com/in/lucas-gomes-de-souza-526b1730a/">Lucas Gomes de Souza</a> e <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a>
 </p>
 
 <br><br>
-O projeto de Sistema de Armazenamento e Reutilização de Água Natural para Gado tem como objetivo fornecer uma fonte constante, limpa e sustentável de água para gado. Ele capta água da chuva ou de outras fontes naturais, armazena-a em grandes reservatórios, purifica-a para remover impurezas e distribui-a automaticamente aos bebedouros dos animais. Sensores de nível de água e controladores automáticos monitoram e gerenciam o sistema, enquanto bombas de água garantem a eficiente distribuição. Opcionalmente, o sistema pode ser alimentado por energia solar, tornando-o mais sustentável. Este projeto não só conserva recursos hídricos como também melhora o bem-estar dos animais, reduz a dependência de fontes externas de água e minimiza a necessidade de intervenção manual.
+O projeto de Sistema de Detecção de Umidade utiliza o microcontrolador ESP32 e o aplicativo Blynk para monitorar remotamente os níveis de umidade do solo. O sistema é composto por um sensor de umidade do solo, que envia dados para o ESP8266. Estes dados são transmitidos ao Blynk, onde o usuário pode visualizá-los através de uma interface personalizada.
+
+Inicialmente, o projeto é criado no Blynk e as credenciais de autenticação são obtidas. No código do ESP8266, a biblioteca Blynk é incluída e as credenciais são configuradas. Em seguida, o ESP8266 é conectado ao servidor Blynk e os pinos virtuais são configurados para receber os dados do sensor.
+
+Após a integração e a configuração online do ESP8266, o sistema permite atualizações de firmware Over-The-Air (OTA) para facilitar a manutenção. A interface do usuário é construída no aplicativo Blynk, incluindo gráficos e indicadores de umidade, além de configurações de alertas e automações, como o acionamento de sistemas de irrigação quando a umidade estiver baixa.
+
+Com todas as etapas concluídas, o sistema oferece um monitoramento eficiente e em tempo real, melhorando a gestão da irrigação e a saúde das plantas.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -33,7 +51,6 @@ O projeto de Sistema de Armazenamento e Reutilização de Água Natural para Gad
   &emsp;|Documentação.docx<br>
 |-->imagens<br>
 |-->src<br>
-  &emsp;|-->Backend<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
@@ -44,64 +61,98 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
 
+<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+
 <b>imagens</b>: Imagens do sistema
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 💻  Instalação Arduino IDE
-<br>*Baixe o Arduino IDE:https://www.arduino.cc/en/software
-<br>*Ao abrir o Arduino IDE pela primeira vez, você pode precisar configurar a porta serial correta e a placa Arduino que está usando;
-<br>*Conecte seu Arduino ao computador via USB;
-<br>*No Arduino IDE, vá para Ferramentas > Placa e selecione o modelo da sua placa;
-<br>*Vá para Ferramentas > Porta e selecione a porta serial à qual seu Arduino está conectado;
-<br>*Testar a Instalação;
+## 🛠 Materiais utilizados
+![ods](https://github.com/2024-1-NADS1-A/Projeto12/blob/main/Template_PI-main/imagens/Design%20sem%20nome%20(1).png)
+<p align="center">
+<img src="![materiais](https://github.com/2024-1-NADS1-A/Projeto12/blob/main/Template_PI-main/imagens/Design%20sem%20nome%20(1).png)" border="0">
+  <a> Feito por<a> <a href="https://www.linkedin.com/in/lucas-gomes-de-souza-526b1730a/">Lucas Gomes de Souza</a> e <a href="https:https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243/">Lucca Brandão</a></a>
 
-<br>*Abra um exemplo básico, como Arquivo > Exemplos > 01.Basics > Blink;
-<br>*Clique no botão Verificar para compilar o código;
-<br>*Clique no botão Carregar para enviar o código para a placa Arduino;
-<br>*Se tudo estiver configurado corretamente, o LED na placa Arduino deve começar a piscar;
+</p>
 
-## 💻  Instalação Blynk 
-<br>*Baixar o Aplicativo Blynk: https://blynk.io/</br>
-<br>*Abra o aplicativo Blynk, registre-se ou faça login.</br>
-<br>*Criar um Novo Projeto:</br>
+<br><strong>⛏️ Hardware</strong></br>
+<br>•Esp8266</br>
+<br>•Jumpers macho/ femea</br>
+<br>•Sensor de umidade</br>
+<br>•Protoboard</br>
+<br>•Relay 5v</br>
+<br>•I2C module</br>
+<br>•Lcd display</br>
 
-<br>*Toque em "Novo Projeto", insira um nome, selecione o tipo de hardware (como ESP32) e o método de conexão (como Wi-Fi).</br>
-<br>*Você receberá um Token de Autenticação por e-mail.</br>
-<br>*Configurar o Código do Dispositivo:</br>
 
-<br>*No Arduino IDE, instale a biblioteca Blynk.</br>
-<br>*Abra um exemplo de código Blynk para ESP32, insira o Token de Autenticação e as credenciais de Wi-Fi.</br>
-<br>*Carregue o código no seu dispositivo (ESP32).</br>
-<br>*Configurar a Interface no Aplicativo Blynk:</br>
+## 🛠 Instalação Arduino IDE
 
-<br>*Adicione e configure widgets no aplicativo, vinculando-os aos pinos do seu dispositivo.</br>
-<br>*Testar a Conexão:</br>
+<br>•Instale o <a href="https://www.arduino.cc/en/software">Arduino IDE</a> a partir do site oficial.</br>
+<br>Faça o downloand das bibliotecas necessárias;</br>
+<br> Faça a conexão do esp8266 ao Blynk</br>
 
-<br>*Certifique-se de que o dispositivo está conectado e online.</br>
-<br>*No aplicativo Blynk, toque em "Play" para iniciar o projeto e interagir com os widgets.</br>
+## 💻 Instalação de Bibliotecas
+<br>• Abra o navegador e entre no <a href="https://youtu.be/H9UWv0zsmlQ?si=zMN-5LA7HJpKQSad">YouTube</a>
+<br>• Baixe o arquivo zip.</br>
+<br>•	Abra o Arduino IDE.</br>
+<br>•	Vá em Sketch > Include Library > Add .ZIP Library....</br>
+<br>•	Navegue até o local onde você baixou o arquivo .zip e selecione-o.</br>
+<br>•	A biblioteca será adicionada e estará disponível para uso em seus projetos.</br>
+
+<br><strong>📚Wire.h</strong></br>
+ <br>•	Vá em Sketch > Include Library > Manage Libraries....</br>
+ <br>•	Na caixa de busca, digite "Wire.h".</br>
+ <br>•	Selecione a biblioteca e clique em "Install".</br>
+
+<br><strong>📚LiquidCrystal</strong></br>
+ <br>•	Vá em Sketch > Include Library > Manage Libraries....</br>
+ <br>•	Na caixa de busca, digite "LiquidCrystal" por Marco Schwartz.</br>
+ <br>•	Selecione a biblioteca DallasTemperature de Miles Burton e clique em "Install".</br>
+
+ <br><strong>📡WiFi</strong></br>
+ <br>•	Vá em Sketch > Include Library > Manage Libraries....</br>
+ <br>•	Na caixa de busca, digite "WiFi".</br>
+ <br>•	Selecione a biblioteca WiFi para ESP8266 e clique em "Install".</br>
+ 
+
+
+## 🛠 Instalação Blynk
+Inicie um novo projeto e obtenha as credenciais necessárias com o token de autenticação;
+
+No código do ESP32, inclua a biblioteca do Blynk e insira as credenciais obtidas;
+
+Estabeleça a conexão com o servidor do Blynk;
+
+Após estabelecer a conexão, integre o ESP82 ao Blynk;
+
+Configure o modelo de funcionamento, além de alertas, notificações e automações;
+
+Após completar todas essas etapas, a integração e a interface estarão prontas.
 
 ## 🗃 Histórico de lançamentos
 
-* 0.0.1 - 09/05/2024
-    *Simulação da teoria do projeto;
- * 0.2.0 - 15/05/2024
-    * Criação do código e circuito;
-* 0.0.3 - 22/05/2024
-    * Erros concertados;
-* 0.0.4 - 10/01/2022
-    * Trabalho em andamento;
-* 0.0.5 - 24/05/2024
-    * Finalização do projeto;
+A cada atualização os detalhes devem ser lançados aqui.
+
+* 0.1.1 - 09/05/2024
+    * Inicío do projeto (montagem e código).
+* 0.1.02- 11/05/2024
+    * Testes e correção de erros.
+* 0.1.03 - 18/05/2024
+    * Integrar o ESP82 ao Blynk.
+* 0.1.04 - 23/05/2024
+    * Integração ao Blynk e ultimos testes.
+* 0.1.05 - 24/05/2024
+    * Finalização do projeto.
 
 ## 📋 Licença/License
-
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-NADS1-A/Projeto10">AgriSense</a> by <span property="cc:attributionName">Fecap, Lucas Gomes de Souza e Lucca Brandão</span> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
 
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
 
-1. https://www.alomorfia.com.br/index.php/alomorfia/article/view/180 
-2. https://repositorio.iica.int/handle/11324/21094 
-3. https://revistascientificas.ifrj.edu.br/index.php/reci/article/view/1891 
-4. https://periodicos.ifgoiano.edu.br/ciclo/article/view/868 
+1. <https://sigmasensors.com.br/sensor-de-umidade-do-solo/>
+2. <https://youtu.be/jqIaC1zXJ9E?si=lzcG4uUlg0lv4Ep1/>
+3. <https://youtu.be/zUZpPkVHAcs?si=98qi5MxGaFJ_ZNcX/>
+4. <https://youtu.be/H9UWv0zsmlQ?si=xq8lAF5zGVLA2RPy/>
+5. <https://www.marconi.com.br/produto/273/sensor-de-umidade-do-solo-em-varias-profundidades/>
